@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/green"
+    android:orientation="vertical"
+    tools:context=".capa_tecnicas">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/green_claro_btn"
+        android:text="Técnicas de rastreo"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/logo_rastreo" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#D6D6D6"
+        android:text="En este apartado tendrás información disponible sobre los primeros pasos que debes hacer en caso de querer reportar una persona, además de ciertas técnicas y entidades a las que podrías acudir."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="“Las víctimas de desaparición son personas de quienes no se tienen noticias o han sido dadas por desaparecidas sobre la base de información fidedigna, a causa de un conflicto armado, de otras situaciones de violencia, desastres naturales, migración u otras crisis humanitarias.  Apenas detectes una irregularidad en la rutina de tu familiar, y creas que puede estar desaparecido(a), puedes pedir su búsqueda inmediata”."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="Puedes pedir la búsqueda inmediata en una estación de Policía o ante las fiscalías. Si no atienden tu solicitud, puedes acudir a la Defensoría del Pueblo, la Personería o la Procuraduría General de la Nación."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:text="Volver"
+        android:textColor="@color/black"
+        android:onClick="volverAOpciones"/>
+
+</LinearLayout>

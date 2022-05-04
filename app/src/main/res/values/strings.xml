@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">Wanted - Antioquia</string>
+    <string name="Ingresar">ingresar</string>
+    <string name="Bienvenido_a">Bienvenido a</string>
+    <string name="logo_1_completo">logo 1</string>
+    <string name="logo_2_w">logo 2</string>
+    <string name="text_como">¿Cómo desea ingresar?</string>
+    <string name="text_ya_tengo">Ya tengo un usuario</string>
+    <string name="registrarme">Registrarme</string>
+    <string name="text_aun_no">¿Aún no tienes un usuario?</string>
+    <string name="text_o">ó</string>
+    <string name="ing_sin_reg">Ingresar sin registrar</string>
+
+    //-----para inicio de sesión------
+    <string name="porfa_ingresa">Por favor, ingresa tus datos.</string>
+    <string name="buscar_persona_pag">BUSCAR PERSONA DESAPARECIDA</string>
+    <string name="porfa_ingresa_documento">Por favor, ingresar el número de documento de la persona que desee buscar.</string>
+    <string name="email">E-Mail</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="cancelar">cancelar</string>
+    <string name="boton_consultar_persona">CONSULTAR</string>
+    <string name="boton_cancelar_consulta">CANCELAR</string>
+    <string name="tex_consultar_per_desap">Número de documento</string>
+    <string name="celular_registr">celular</string>
+
+    //------para capa registrar------
+    <string name="icono_user">icono_user</string>
+    <string name="text_municipio">Municipio</string>
+    <string name="text_documento">Tipo de documento</string>
+    <string name="text_genero">Género</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="text_fecha_nac">Fecha de nacimiento</string>
+    <string name="text_cedula">Cédula</string>
+    <string name="text_correo">Correo</string>
+    <string name="text_ciudad">Ciudad</string>
+    <string name="text_ver_denuncia">Buscar Desaparecido</string>
+    <string name="text_cancelar_busqueda">Volver</string>
+    <string name="text_info_adic">Información adicional</string>
+
+    //-----Para capa denunciar------
+    <string name="denuncia_text_ini">En esta sección podrá hacer la denuncia de una persona que considere como desaparecida.</string>
+    <string name="denuncia_text_ini2">Pese a la creencia general, no tiene que esperar 72 horas.</string>
+
+    //spinner municipio
+    <string-array name="municipios">
+        <item>ABEJORRAL</item>
+        <item>ABRIAQUI</item>
+        <item>ALEJANDRIA</item>
+        <item>AMAGA</item>
+        <item>AMALFI</item>
+        <item>ANDES</item>
+        <item>ANGELOPOLIS</item>
+        <item>ANGOSTURA</item>
+        <item>ANORI</item>
+        <item>ANZA</item>
+        <item>APARTADO</item>
+        <item>ARBOLETES</item>
+        <item>ARGELIA</item>
+        <item>ARMENIA</item>
+        <item>BARBOSA</item>
+        <item>BELLO</item>
+        <item>BELMIRA</item>
+        <item>BETANIA</item>
+        <item>BETULIA</item>
+        <item>BRICEÑO</item>
+        <item>BURITICA</item>
+        <item>CACERES</item>
+        <item>CAICEDO</item>
+        <item>CALDAS</item>
+        <item>CAMPAMENTO</item>
+        <item>CAÑASGORDAS</item>
+        <item>CARACOLI</item>
+        <item>CARAMANTA</item>
+        <item>CAREPA</item>
+        <item>CARMEN DE VIBORAL</item>
+        <item>CAROLINA</item>
+        <item>CAUCASIA</item>
+        <item>CHIGORODO</item>
+        <item>CISNEROS</item>
+        <item>CIUDAD BOLIVAR</item>
+        <item>COCORNA</item>
+        <item>CONCEPCION</item>
+        <item>CONCORDIA</item>
+        <item>COPACABANA</item>
+        <item>DABEIBA</item>
+        <item>DON MATIAS</item>
+        <item>EBEJICO</item>
+        <item>EL BAGRE</item>
+        <item>ENTRERRIOS</item>
+        <item>ENVIGADO</item>
+        <item>FREDONIA</item>
+        <item>FRONTINO</item>
+        <item>GIRALDO</item>
+        <item>GIRARDOTA</item>
+        <item>GOMEZ PLATA</item>
+        <item>GRANADA</item>
+        <item>GUADALUPE</item>
+        <item>GUARNE</item>
+        <item>GUATAPE</item>
+        <item>HELICONIA</item>
+        <item>HISPANIA</item>
+        <item>ITAGUI</item>
+        <item>ITUANGO</item>
+        <item>JARDIN</item>
+        <item>JERICO</item>
+        <item>LA CEJA</item>
+        <item>LA ESTRELLA</item>
+        <item>LA PINTADA</item>
+        <item>LA UNION</item>
+        <item>LIBORINA</item>
+        <item>MACEO</item>
+        <item>MARINILLA</item>
+        <item>MEDELLIN</item>
+        <item>MONTEBELLO</item>
+        <item>MURINDO</item>
+        <item>MUTATA</item>
+        <item>NARIÑO</item>
+        <item>NECHI</item>
+        <item>NECOCLI</item>
+        <item>OLAYA</item>
+        <item>PEÑOL</item>
+        <item>PEQUE</item>
+        <item>PUEBLORRICO</item>
+        <item>PUERTO BERRIO</item>
+        <item>PUERTO NARE</item>
+        <item>PUERTO TRIUNFO</item>
+        <item>REMEDIOS</item>
+        <item>RETIRO</item>
+        <item>RIONEGRO</item>
+        <item>SABANALARGA</item>
+        <item>SABANETA</item>
+        <item>SALGAR</item>
+        <item>SAN ANDRES</item>
+        <item>SAN CARLOS</item>
+        <item>SAN FRANCISCO</item>
+        <item>SAN JERONIMO</item>
+        <item>SAN JOSE DE LA MONTAÑA</item>
+        <item>SAN JUAN DE URABA</item>
+        <item>SAN LUIS</item>
+        <item>SAN PEDRO</item>
+        <item>SAN PEDRO DE URABA</item>
+        <item>SAN RAFAEL</item>
+        <item>SAN ROQUE</item>
+        <item>SAN VICENTE</item>
+        <item>SANTA BARBARA</item>
+        <item>SANTA ROSA DE OSOS</item>
+        <item>SANTAFE DE ANTIOQUIA</item>
+        <item>SANTO DOMINGO</item>
+        <item>SANTUARIO</item>
+        <item>SEGOVIA</item>
+        <item>SONSON</item>
+        <item>SOPETRAN</item>
+        <item>TAMESIS</item>
+        <item>TARAZA</item>
+        <item>TARSO</item>
+        <item>TITIRIBI</item>
+        <item>TOLEDO</item>
+        <item>TURBO</item>
+        <item>URAMITA</item>
+        <item>URRAO</item>
+        <item>VALDIVIA</item>
+        <item>VALPARAISO</item>
+        <item>VEGACHI</item>
+        <item>VENECIA</item>
+        <item>VIGIA DEL FUERTE</item>
+        <item>YALI</item>
+        <item>YARUMAL</item>
+        <item>YOLOMBO</item>
+        <item>YONDO</item>
+        <item>ZARAGOZA</item>
+    </string-array>
+
+    //spinner tipo de documento
+
+    <string-array name="tipo_de_doc">
+        <item>C.C</item>
+        <item>T.I</item>
+    </string-array>
+
+    //spinner género
+
+    <string-array name="genero">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string name="doc_de_id">Documento de identidad</string>
+    <string name="estatura">Estatura (real o aprox)</string>
+    <string name="edad">Edad (real o aprox)</string>
+    <string name="enfermedad">Enfermedades</string>
+    <string name="fecha_des">Fecha de desaparición</string>
+    <string name="denunciar">Denunciar</string>
+
+
+    //-----para Capa Opciones cada botón------
+    <string name="iniciar_ses">Cerrar sesión</string>
+    <string name="noticias">Noticias recientes</string>
+    <string name="denunciar_persona">Reportar persona desaparecida</string>
+    <string name="buscar_persona">Buscar persona desaparecida</string>
+    <string name="tecnicas">Técnicas de rastreo</string>
+    <string name="consejos">Consejos de prevensión</string>
+    <string name="perfil">Ir a mi perfil</string>
+    <string name="info_app">Información de la app</string>
+
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/green"
+    android:orientation="vertical"
+    tools:context=".opciones">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Menú de opciones "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnPerfil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:onClick="irAPerfil"
+                android:text="@string/perfil"
+                android:textColor="@color/black"
+                app:icon="@drawable/ic_baseline_account_circle_24"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/noticias"
+                android:textColor="@color/black"
+                app:icon = "@drawable/ic_baseline_notification_important_24"
+                app:iconTint="@color/black"
+                android:onClick="irANoticias"/>
+
+            <Button
+                android:id="@+id/btnhacerDenuncia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:onClick="irADenunciar"
+                android:text="@string/denunciar_persona"
+                android:textColor="@color/black"
+                app:icon="@drawable/ic_baseline_warning_24"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:onClick="irABuscarPersona"
+                android:text="@string/buscar_persona"
+                android:textColor="@color/black"
+                app:icon="@drawable/ic_baseline_search_24"
+                app:iconTint="@color/black" />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/tecnicas"
+                android:textColor="@color/black"
+                app:icon = "@drawable/ic_baseline_remove_red_eye_24"
+                app:iconTint="@color/black"
+                android:onClick="irATecnicas"/>
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/consejos"
+                android:textColor="@color/black"
+                app:icon = "@drawable/ic_baseline_thumb_up_24"
+                app:iconTint="@color/black"
+                android:onClick="irAConsejos"/>
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="@string/info_app"
+                android:textColor="@color/black"
+                app:icon = "@drawable/ic_baseline_info_24"
+                app:iconTint="@color/black"
+                android:onClick="irAInformacion"/>
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:onClick="abrirInicioSesion"
+                android:text="@string/iniciar_ses"
+                android:textColor="@color/black"
+                app:icon="@drawable/login"
+                app:iconTint="@color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

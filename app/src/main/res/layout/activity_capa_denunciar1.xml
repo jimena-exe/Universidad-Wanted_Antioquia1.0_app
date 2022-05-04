@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".capa_denunciar1"
+android:background="@color/white"
+android:backgroundTint="@color/green">
+
+<TextView
+    android:id="@+id/textView13"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/green_claro_btn"
+    android:text="Hacer una denuncia"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textColorHint="@color/black"
+    android:textSize="24sp"
+    android:textStyle="bold" />
+
+<ImageView
+    android:id="@+id/imageView4"
+    android:layout_width="match_parent"
+    android:layout_height="96dp"
+    android:layout_margin="15dp"
+    android:contentDescription="@string/logo_2_w"
+    app:srcCompat="@drawable/logo_1"
+    tools:ignore="ImageContrastCheck" />
+
+<TextView
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#D6D6D6"
+    android:text="@string/denuncia_text_ini"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="16sp" />
+
+<TextView
+    android:id="@+id/textView8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#D6D6D6"
+    android:text="@string/denuncia_text_ini2"
+    android:textAlignment="center"
+    android:textColor="@color/black"
+    android:textSize="16sp" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/verMunicipioDenunc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/text_municipio"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#004D40"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verNombreDenunci2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/text_nombre"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#004D40"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verTipoDocumenDenun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/text_documento"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#004D40"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verDocumentoDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/doc_de_id"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verEstaturaDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/estatura"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verEdadDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/edad"
+            android:inputType="number"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verGeneroDenun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:hint="@string/text_genero"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="#004D40"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verEnfermedadesDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/enfermedad"
+            android:inputType="textMultiLine"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verInfoAdiciDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/text_info_adic"
+            android:inputType="textMultiLine"
+            android:textColorHint="#004D40" />
+
+        <EditText
+            android:id="@+id/verFechaDesapaDenunci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/fecha_des"
+            android:inputType="textMultiLine"
+            android:textColorHint="#004D40" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnVerDenuncia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/blue"
+                android:onClick="reportarPersona"
+                android:text="@string/denunciar"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnCancelaBusqueda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/orange"
+                android:text="@string/cancelar"
+                android:textColor="@color/black"
+                android:onClick="cancelarDenuncia"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
+
+</LinearLayout>
